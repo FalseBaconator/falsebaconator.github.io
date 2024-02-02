@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
+    "\\assets\\HandDrawnDungeon",
     "\\images"
   ],
-  "SelectedNode": "\\images",
+  "SelectedNode": "\\assets\\HandDrawnDungeon\\index.html",
   "PreviewInSolutionExplorer": false
 }
