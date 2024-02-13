@@ -40,10 +40,10 @@
 											</header>
 											<p>Dust Busters Inc. is a game I am currently making with my classmates. The player is tasked with cleaning a house while the ghost that haunts it tries to get in their way.</p>
 										</div>
-										<span class="image main"><img src="images/DustBustersInc1.png" alt="" /></span>
+										<span class="image main"><img src="images/DustBustersIncGif1.png" alt="" /></span>
 									</section>
 									<hr class="major" />
-
+									
 									<h2>My Role: Lead Programmer</h2>
 									<p>My responsibilities:</p>
 									<!--<p>I am the Lead Programmer for this project. As such it is my job to ensure all of the programmers are keeping their code up to a professional standard. I am making sure that they are leaving appropriate comments to keep their scripts legible and ensuring they use a clear naming convention for their scripts and variables. Whenever a bug is encountered I help resolve it, investigating the cause of the bug and fixing the code that caused the issue.</p>
@@ -55,25 +55,37 @@
 									<li>Maintain the GitHub repo.</li>
 
 									<hr class="major" />
+									
+									<section id="banner">
+										<span class="image main"><img src="images/DustBustersIncGif2.png" alt="" /></span>
+										<div>
+											<h2>The Ghost</h2>
+											<p>The ghost is the game's primary antagonist and the main obstacle the player faces. Multiple sytems needed to be implemented for it.</p>
+											<!--<p>The ghost is the primary antagonist and obstacle the player faces in this game. I worked with the Game Designer to figure how the player should experience the player. From there I created the ghost itself, creating the ghost's aggression level system, task system, and behaviour.</p>
+											<p>The ghost gets more aggressive as the player completes more tasks. At the beginning of the game the ghost does it's best to avoid being directly noticed by the player, hiding important items from the player from outside the player's current location. As the ghost gets more aggressive, it will turn off the lights in unoccupied rooms. It will eventually stop caring about hiding its existence from the player, interfering with tasks right in front of the player and even throwing objects at the player to injure them.</p>-->
+											<li>I implemented an aggression level system, with different interaction target lists for each aggression level.</li>
+											<li>I used Unity's NavMesh tool and toggleable NavMeshObstacles to make the ghost avoid being spotted at early aggression levels.</li>
+											<li>I made the ghost's task list heavily customizable in the unity inspector for ease of implementation.</li>
+										</div>
+									</section>
 
-									<h2>The Ghost</h2>
-									<p>The ghost is the game's primary antagonist and the main obstacle the player faces. Multiple sytems needed to be implemented for it.</p>
-									<!--<p>The ghost is the primary antagonist and obstacle the player faces in this game. I worked with the Game Designer to figure how the player should experience the player. From there I created the ghost itself, creating the ghost's aggression level system, task system, and behaviour.</p>
-									<p>The ghost gets more aggressive as the player completes more tasks. At the beginning of the game the ghost does it's best to avoid being directly noticed by the player, hiding important items from the player from outside the player's current location. As the ghost gets more aggressive, it will turn off the lights in unoccupied rooms. It will eventually stop caring about hiding its existence from the player, interfering with tasks right in front of the player and even throwing objects at the player to injure them.</p>-->
-									<li>I implemented an aggression level system, with different interaction target lists for each aggression level.</li>
-									<li>I used Unity's NavMesh tool and toggleable NavMeshObstacles to make the ghost avoid being spotted at early aggression levels.</li>
-									<li>I made the ghost's task list heavily customizable in the unity inspector for ease of implementation.</li>
+
 
 									<hr class="major" />
 
-									<h2>The Debug Tool</h2>
-									<!--<p>As the Lead Programmer, it's my job to ensure that all the code is running smoothly. For that reason the team and I agreed that I should design a debug screen which can be activated during gameplay. This debug screen shows crucial information about the status of the player and the ghost that would otherwise be hidden, including the ghost's aggression level, task list, and current task. This debug system helped solve many bugs, including a bug which caused the ghost to skip tasks.</p>
-									<p>While the debug system is active, the playtester has more manual control over the games systems, being able to freeze the ghost if we need to test a specific task without the ghost interfering, being able to set the ghost's current aggression level, and even skipping straight to the end game if we need to test how the final escape tasks are working. This aspect of the debug system has made testing more specific aspects of the game much faster as the tester is able to focus on that aspect of the game with little to no distraction.</p>-->
-									<p>The debug tool was created to make it easier to test the game. While active, the debug screen gives the tester more control over the game to make it easier to test specific aspects of the game.</p>
-									<li>Can set the ghost's aggression level.</li>
-									<li>Can freeze the ghost for when they need to test a player task without ghost interference.</li>
-									<li>Can see the ghost's task list and their current task.</li>
-									<li>Provides a minimap that shows the ghost's and the player's positions.</li>
+									<section id="banner">
+										<div>
+											<h2>The Debug Tool</h2>
+											<!--<p>As the Lead Programmer, it's my job to ensure that all the code is running smoothly. For that reason the team and I agreed that I should design a debug screen which can be activated during gameplay. This debug screen shows crucial information about the status of the player and the ghost that would otherwise be hidden, including the ghost's aggression level, task list, and current task. This debug system helped solve many bugs, including a bug which caused the ghost to skip tasks.</p>
+											<p>While the debug system is active, the playtester has more manual control over the games systems, being able to freeze the ghost if we need to test a specific task without the ghost interfering, being able to set the ghost's current aggression level, and even skipping straight to the end game if we need to test how the final escape tasks are working. This aspect of the debug system has made testing more specific aspects of the game much faster as the tester is able to focus on that aspect of the game with little to no distraction.</p>-->
+											<p>The debug tool was created to make it easier to test the game. While active, the debug screen gives the tester more control over the game to make it easier to test specific aspects of the game.</p>
+											<li>Can set the ghost's aggression level.</li>
+											<li>Can freeze the ghost for when they need to test a player task without ghost interference.</li>
+											<li>Can see the ghost's task list and their current task.</li>
+											<li>Provides a minimap that shows the ghost's and the player's positions.</li>
+										</div>
+										<span class="image main"><img src="images/DustBustersIncGif3.png" alt="" /></span>
+									</section>
 
 								</section>
 
