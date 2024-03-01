@@ -78,7 +78,8 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #585858; }
+  /*background: #ffffff; }*/
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -91,7 +92,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #7f888f;
+  color: #adadad;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -121,7 +122,8 @@ a {
       color: inherit; }
 
 strong, b {
-  color: #3d4449;
+  color: #ffffff;
+  /*color: #3d4449;*/
   font-weight: 600; }
 
 em, i {
@@ -131,7 +133,7 @@ p {
   margin: 0 0 2em 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #3d4449;
+  color: #ffffff;
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
@@ -1861,7 +1863,7 @@ button,
     #main > .inner > section {
       padding: 1.5em 0 1em 0 ;
       /*padding: 6em 0 4em 0 ;*/
-      border-top: solid 2px rgba(255, 255, 255, 0.75); }
+      border-top: solid 2px #585858; }
       /*border-top: solid 2px rgba(210, 215, 217, 0.75); }*/
       #main > .inner > section:first-of-type {
         border-top: 0 !important; }
@@ -1930,7 +1932,8 @@ button,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #f5f6f7;
+  background-color: #444444;
+  /*background-color: #f5f6f7;*/
   font-size: 0.9em;
   position: relative;
   width: 26em; }
@@ -1942,6 +1945,7 @@ button,
     width: 26em; }
     #sidebar > .inner > * {
       border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+      /*border-bottom: solid 2px rgba(210, 215, 217, 0.75);*/
       margin: 0 0 3.5em 0;
       padding: 0 0 3.5em 0; }
       #sidebar > .inner > * > :last-child {
@@ -1962,7 +1966,7 @@ button,
     -webkit-transition: left 0.5s ease;
     -ms-transition: left 0.5s ease;
     transition: left 0.5s ease;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     border: 0;
     display: block;
     height: 7.5em;
@@ -2022,7 +2026,7 @@ button,
         margin-left: -24em; } }
   @media screen and (max-width: 1280px) {
     #sidebar {
-      box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
+      box-shadow: 0 0 5em 0 rgba(255, 255, 255, 0.175);
       height: 100%;
       left: 0;
       position: fixed;
@@ -2200,7 +2204,8 @@ button,
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #3d4449;
+  color: #cacaca;
+  /*color: #3d4449;*/
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   letter-spacing: 0.075em;
